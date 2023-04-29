@@ -5,7 +5,7 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'cashtrack-web',
+  title: 'Cashtrack',
 
   projectId: 'f6mvhx2w',
   dataset: 'production',
