@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main >
+      <main className="container d-flex justify-content-center">
         <h1>Hey</h1>
         <div>
           This is a placeholder site. <br />
