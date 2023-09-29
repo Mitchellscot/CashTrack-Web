@@ -435,4 +435,4 @@ $RECYCLE.BIN/
 
 .DS_Store
 .vercel
-/frontend/.next
+/.next

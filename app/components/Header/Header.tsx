@@ -1,4 +1,3 @@
-//boilerplate nextjs component
 import React from 'react';
 import styles from './Header.module.scss';
 import classNames from 'classnames';
