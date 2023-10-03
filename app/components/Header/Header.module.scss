@@ -1,14 +1,12 @@
 @import "/node_modules/bootswatch/dist/flatly/variables";
 
-//targets both the navbar brand div and the image next to it and sets a color on hover
+.header{
+    box-shadow: 0 0 8px 0 $primary;
+}
 
 .logo{
     cursor: pointer;
     filter: invert(52%) sepia(70%) saturate(470%) hue-rotate(118deg) brightness(99%) contrast(95%);
-}
-
-.noHyperlinkUnderline{
-    text-decoration: none;
 }
 
 .logo{

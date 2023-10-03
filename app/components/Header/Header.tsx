@@ -6,12 +6,11 @@ import Link from 'next/link';
 
 export const Header = () => {
     const img = classNames('mt-1 me-3', styles.logo);
-    const anchor = classNames('d-flex brand col-md-2 d-none d-md-block text-center no-hyperlink-underline', styles.noHyperlinkUnderline);
-    const logo = classNames('logo text-white pt-2 d-none d-xl-block', styles.logo);
+    const header = classNames(styles.header, "sticky-top");
     const navLink = classNames('nav-link text-white', styles.navLink);
     const hamburgerBtn = classNames('me-3', styles.hamburgerBtn);
     return (
-        <header className="">
+        <header className={header}>
             <nav className="navbar navbar-expand-md bg-primary" data-bs-theme="dark">
                 <div className="container-fluid d-flex justify-content-apart py-0">
                     <a className="navbar-brand text-uppercase fs-2 mx-0 d-flex" href="/">
