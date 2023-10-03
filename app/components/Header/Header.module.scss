@@ -1,15 +1,39 @@
-.image{
-    width: 90px; 
-    margin: 0 auto;
+@import "/node_modules/bootswatch/dist/flatly/variables";
+
+//targets both the navbar brand div and the image next to it and sets a color on hover
+
+.logo{
+    cursor: pointer;
+    filter: invert(52%) sepia(70%) saturate(470%) hue-rotate(118deg) brightness(99%) contrast(95%);
 }
+
 .noHyperlinkUnderline{
     text-decoration: none;
 }
+
 .logo{
     font-weight: 900;
     font-size: calc(100% + 0.5vw + 0.7vh);
     text-transform: uppercase;
 }
-.whiteIcon{
 
+.navLink{
+    color: #fff;
+}
+.navLink:hover{
+    color: $success !important;
+}
+
+.navbar{
+    padding: 0px !important;
+}
+.hamburgerBtn{
+    background: none;
+    padding: 0px;
+    border: none;
+}
+.hamburger{
+    cursor: pointer;
+    font-size: 2.5rem;
+    color: $white;
 }
