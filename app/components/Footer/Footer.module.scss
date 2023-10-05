@@ -1,25 +1,25 @@
 @import "/node_modules/bootswatch/dist/flatly/variables";
 
-.container{
-    box-shadow: 0 0 8px 0 $primary;
-    position: relative;
-    flex: 1;
-    padding: 10px var(--gutter);
-    flex-direction: row;
+.container {
+  box-shadow: 0 0 8px 0 $primary;
+  position: relative;
+  flex: 1;
+  padding: 10px var(--gutter);
+  flex-direction: row;
 }
 .copyright {
-    color: $white;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: ubuntu mono;
-    cursor: pointer;
-    text-decoration: none;
+  color: $white;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: ubuntu mono;
+  cursor: pointer;
+  text-decoration: none;
 }
-.copyright:hover{
-    > * span{
+.copyright:hover {
+  > * span {
     color: $success;
-    }
+  }
 }
-.socialLink{
-    cursor: pointer;
+.socialLink {
+  cursor: pointer;
 }

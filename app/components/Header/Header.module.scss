@@ -1,37 +1,38 @@
 @import "/node_modules/bootswatch/dist/flatly/variables";
 
-.header{
-    box-shadow: 0 0 8px 0 $primary;
+.header {
+  box-shadow: 0 0 8px 0 $primary;
 }
 
-.logo{
-    cursor: pointer;
-    filter: invert(52%) sepia(70%) saturate(470%) hue-rotate(118deg) brightness(99%) contrast(95%);
+.logo {
+  cursor: pointer;
+  filter: invert(52%) sepia(70%) saturate(470%) hue-rotate(118deg)
+    brightness(99%) contrast(95%);
 }
 
-.logo{
-    font-weight: 900;
-    font-size: calc(100% + 0.5vw + 0.7vh);
-    text-transform: uppercase;
+.logo {
+  font-weight: 900;
+  font-size: calc(100% + 0.5vw + 0.7vh);
+  text-transform: uppercase;
 }
 
-.navLink{
-    color: #fff;
+.navLink {
+  color: #fff;
 }
-.navLink:hover{
-    color: $success !important;
+.navLink:hover {
+  color: $success !important;
 }
 
-.navbar{
-    padding: 0px !important;
+.navbar {
+  padding: 0px !important;
 }
-.hamburgerBtn{
-    background: none;
-    padding: 0px;
-    border: none;
+.hamburgerBtn {
+  background: none;
+  padding: 0px;
+  border: none;
 }
-.hamburger{
-    cursor: pointer;
-    font-size: 2.5rem;
-    color: $white;
+.hamburger {
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: $white;
 }

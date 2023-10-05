@@ -1,17 +1,16 @@
-import Script from "next/script"
-import 'bootswatch/dist/flatly/bootstrap.min.css';
-import '../styles/overrides.scss'
-import {Header} from "./components/Header/Header";
-import {MobileMenu} from "./components/MobileMenu/MobileMenu";
+import Script from "next/script";
+import "bootswatch/dist/flatly/bootstrap.min.css";
+import "../styles/overrides.scss";
+import { Header } from "./components/Header/Header";
+import { MobileMenu } from "./components/MobileMenu/MobileMenu";
 import Footer from "./components/Footer/Footer";
 //import theme from './lib/theme';
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
-
   return (
     <html lang="en" data-bs-theme="light">
       <head>
@@ -34,5 +33,5 @@ export default function RootLayout({
         <Footer />
       </body>
     </html>
-  )
+  );
 }
