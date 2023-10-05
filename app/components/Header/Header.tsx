@@ -15,7 +15,7 @@ export const Header = () => {
                 <div className="container-fluid d-flex justify-content-apart py-0">
                     <a className="navbar-brand text-uppercase fs-2 mx-0 d-flex" href="/">
                     <Image src='/chart.svg' height={50} width={50} className={img} alt="cashtrack logo" />
-                        <span className="d-none d-lg-block">cashtrack</span>
+                        <span className="d-none d-lg-block">cash track</span>
                     </a>
                     
                     <ul className="navbar-nav justify-content-end" >
