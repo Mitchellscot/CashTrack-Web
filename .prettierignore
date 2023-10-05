@@ -1,0 +1,7 @@
+.gitignore
+.husky/*
+.prettierignore
+**/.git
+**/.svn
+**/.hg
+**/node_modules
