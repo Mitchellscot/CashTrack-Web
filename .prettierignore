@@ -5,3 +5,6 @@
 **/.svn
 **/.hg
 **/node_modules
+**./next
+**./vercel
+**./github
