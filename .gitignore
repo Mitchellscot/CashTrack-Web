@@ -436,3 +436,12 @@ $RECYCLE.BIN/
 .DS_Store
 .vercel
 /.next
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
