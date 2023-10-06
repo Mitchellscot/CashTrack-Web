@@ -1,0 +1,51 @@
+@import '/node_modules/bootswatch/dist/flatly/variables';
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/_variables';
+@import 'node_modules/bootstrap/scss/_mixins/';
+@import 'node_modules/bootstrap/scss/mixins/breakpoints';
+
+//breakpoint-next(sm, (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px))
+
+.logoContainer {
+  > img {
+    @include media-breakpoint-up(xs) {
+      max-width: 300px;
+      max-height: 161px;
+    }
+
+    @include media-breakpoint-up(md) {
+      max-width: 400px;
+      max-height: 215px;
+    }
+  }
+}
+
+.heroImageContainer {
+  > img {
+    @include media-breakpoint-up(xs) {
+      max-width: 310px;
+      max-height: 219px;
+    }
+    @include media-breakpoint-up(sm) {
+      max-width: 310px;
+      max-height: 219px;
+    }
+
+    @include media-breakpoint-up(md) {
+      max-width: 419px;
+      max-height: 295px;
+    }
+    @include media-breakpoint-up(lg) {
+      max-width: 621px;
+      max-height: 438px;
+    }
+    @include media-breakpoint-up(xl) {
+      max-width: 621px;
+      max-height: 438px;
+    }
+    @include media-breakpoint-up(xxl) {
+      max-width: 621px;
+      max-height: 438px;
+    }
+  }
+}
