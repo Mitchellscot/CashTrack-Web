@@ -9,3 +9,6 @@
 **./vercel
 **./github
 **/*.png
+**/*.ico
+**/*.jpg
+**/*.jpeg
