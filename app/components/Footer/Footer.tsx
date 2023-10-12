@@ -8,7 +8,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
   const footer = classNames(
     styles.container,
-    'd-flex justify-content-between align-items-center bg-primary fixed-bottom'
+    'd-flex justify-content-between align-items-center bg-primary'
   );
   const socialLink = classNames(styles.socialLink, 'text-white my-2 me-4');
   const socialText = classNames(

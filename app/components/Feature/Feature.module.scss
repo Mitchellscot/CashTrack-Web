@@ -1,1 +1,35 @@
 @import '/node_modules/bootswatch/dist/flatly/variables';
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/_variables';
+@import 'node_modules/bootstrap/scss/_mixins/';
+@import 'node_modules/bootstrap/scss/mixins/breakpoints';
+
+.imageContainer {
+  > img {
+    @include media-breakpoint-up(xs) {
+      max-width: 300px;
+      max-height: 150px;
+    }
+    @include media-breakpoint-up(sm) {
+      max-width: 800px;
+      max-height: 400px;
+    }
+
+    @include media-breakpoint-up(md) {
+      max-width: 800px;
+      max-height: 400px;
+    }
+    @include media-breakpoint-up(lg) {
+      max-width: 800px;
+      max-height: 400px;
+    }
+    @include media-breakpoint-up(xl) {
+      max-width: 800px;
+      max-height: 400px;
+    }
+    @include media-breakpoint-up(xxl) {
+      max-width: 700px;
+      max-height: 350px;
+    }
+  }
+}

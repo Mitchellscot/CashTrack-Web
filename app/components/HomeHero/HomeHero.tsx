@@ -11,7 +11,7 @@ export default function HomeHero() {
   );
   const line = classNames('mb-3', styles.line);
   return (
-    <div className="row d-flex mt-3 mt-md-5 justify-content-center">
+    <div className="row d-flex mt-3 mt-md-5 justify-content-center mb-5">
       <div className="col-12 col-md-6 d-flex flex-column align-items-center mb-4 mb-md-5">
         <h1 className="text-center">
           <em>Get your finances on track</em>
