@@ -17,10 +17,18 @@ export default function Footer() {
   );
   return (
     <footer className={footer}>
-      <Link href="https://www.mitchellscott.dev" target="_blank">
+      <Link
+        href="https://www.mitchellscott.dev"
+        target="_blank"
+        className={styles.link}
+      >
         <span className={copyrightText}>&copy;{` ${year} Mitchell Scott`}</span>
       </Link>
-      <Link href="https://github.com/Mitchellscot/cashtrack" target="_blank">
+      <Link
+        href="https://github.com/Mitchellscot/cashtrack"
+        target="_blank"
+        className={styles.link}
+      >
         <div className={socialLink}>
           <span className={socialText}>View code on GitHub</span>
           <Image src="/github.svg" height="40" width="40" alt="" />
