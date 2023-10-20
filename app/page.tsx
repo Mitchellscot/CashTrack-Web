@@ -9,6 +9,7 @@ export default function Page() {
         title="Track your expenses"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, vitae aliquam nisl nunc eu nunc. Sed euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, vitae aliquam nisl nunc eu nunc."
         image="/bar-graph.png"
+        mobileImage="/bar-graph-mobile.png"
         imageAlt=""
         imageWidth={809}
         imageHeight={405}
@@ -18,9 +19,10 @@ export default function Page() {
       />
 
       <Feature
-        title="Track your expenses"
+        title="Make a plan for your savings"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, vitae aliquam nisl nunc eu nunc. Sed euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, vitae aliquam nisl nunc eu nunc."
-        image="/bar-graph.png"
+        image="/projection.png"
+        mobileImage="/projection-mobile.png"
         imageAlt=""
         imageWidth={809}
         imageHeight={405}
@@ -30,9 +32,10 @@ export default function Page() {
       />
 
       <Feature
-        title="Track your expenses"
+        title="Build a budget specific to your needs"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, vitae aliquam nisl nunc eu nunc. Sed euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, vitae aliquam nisl nunc eu nunc."
-        image="/bar-graph.png"
+        image="/budget.png"
+        mobileImage="/budget-mobile.png"
         imageAlt=""
         imageWidth={809}
         imageHeight={405}
@@ -42,9 +45,10 @@ export default function Page() {
       />
 
       <Feature
-        title="Track your expenses"
+        title="Your data stays with you"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, vitae aliquam nisl nunc eu nunc. Sed euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, vitae aliquam nisl nunc eu nunc."
-        image="/bar-graph.png"
+        image="/split.png"
+        mobileImage="/split-mobile.png"
         imageAlt=""
         imageWidth={809}
         imageHeight={405}
@@ -52,6 +56,17 @@ export default function Page() {
         link=""
         linkText="Learn More"
       />
+      <div className="my-5">
+        <h2 className="text-center my-5">
+          Download today and get your Cash back on Track
+        </h2>
+        <div className="d-flex justify-content-center mb-5">
+          <button className="btn btn-info btn-lg me-3">Get Started</button>
+          <button className="btn btn-outline-info btn-lg ms-3">
+            Learn How To Budget
+          </button>
+        </div>
+      </div>
     </main>
   );
 }
