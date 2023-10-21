@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Feature from './components/Feature/Feature';
 import HomeHero from './components/HomeHero/HomeHero';
 
@@ -61,10 +62,12 @@ export default function Page() {
           Download today and get your Cash back on Track
         </h2>
         <div className="d-flex justify-content-center mb-5">
-          <button className="btn btn-info btn-lg me-3">Get Started</button>
-          <button className="btn btn-outline-info btn-lg ms-3">
+          <Link href="/documentation" className="btn btn-success btn-lg me-3">
+            Get Started
+          </Link>
+          <Link href="/budget" className="btn btn-outline-info btn-lg ms-3">
             Learn How To Budget
-          </button>
+          </Link>
         </div>
       </div>
     </main>

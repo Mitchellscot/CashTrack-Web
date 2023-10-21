@@ -1,6 +1,6 @@
-import Link from "next/link";
-import styles from "./MobileMenu.module.scss";
-import classNames from "classnames";
+import Link from 'next/link';
+import styles from './MobileMenu.module.scss';
+import classNames from 'classnames';
 
 export const MobileMenu = () => {
   return (
@@ -26,35 +26,28 @@ export const MobileMenu = () => {
           </li>
           <li className="nav-item mb-3">
             <h3 className="fw-bolder">
-              <Link href="/About" className={styles.link}>
-                About
-              </Link>
-            </h3>
-          </li>
-          <li className="nav-item mb-3">
-            <h3 className="fw-bolder">
-              <Link href="/Blog" className={styles.link}>
+              <Link href="/blog" className={styles.link}>
                 Blog
               </Link>
             </h3>
           </li>
           <li className="nav-item mb-3">
             <h3 className="fw-bolder">
-              <Link href="/Documentation" className={styles.link}>
+              <Link href="/documentation" className={styles.link}>
                 Documentation
               </Link>
             </h3>
           </li>
           <li className="nav-item mb-3">
             <h3 className="fw-bolder">
-              <Link href="/Budget" className={styles.link}>
+              <Link href="/budget" className={styles.link}>
                 How To Budget
               </Link>
             </h3>
           </li>
           <li className="nav-item mb-3">
             <h3 className="fw-bolder">
-              <Link href="/Download" className={styles.link}>
+              <Link href="/download" className={styles.link}>
                 Download
               </Link>
             </h3>

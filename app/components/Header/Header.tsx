@@ -1,14 +1,14 @@
-import React from "react";
-import styles from "./Header.module.scss";
-import classNames from "classnames";
-import Image from "next/image";
-import Link from "next/link";
+import React from 'react';
+import styles from './Header.module.scss';
+import classNames from 'classnames';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export const Header = () => {
-  const img = classNames("mt-1 me-3", styles.logo);
-  const header = classNames(styles.header, "sticky-top");
-  const navLink = classNames("nav-link text-white", styles.navLink);
-  const hamburgerBtn = classNames("me-3", styles.hamburgerBtn);
+  const img = classNames('mt-1 me-3', styles.logo);
+  const header = classNames(styles.header, 'sticky-top');
+  const navLink = classNames('nav-link text-white', styles.navLink);
+  const hamburgerBtn = classNames('me-3', styles.hamburgerBtn);
   return (
     <header className={header}>
       <nav className="navbar navbar-expand-md bg-primary" data-bs-theme="dark">
@@ -26,22 +26,17 @@ export const Header = () => {
 
           <ul className="navbar-nav justify-content-end">
             <li className="me-2 fs-5 nav-item d-none d-md-block">
-              <Link href="/About" className={navLink}>
-                About
-              </Link>
-            </li>
-            <li className="me-2 fs-5 nav-item d-none d-md-block">
-              <Link href="/Blog" className={navLink}>
+              <Link href="/blog" className={navLink}>
                 Blog
               </Link>
             </li>
             <li className="me-2 fs-5 nav-item d-none d-md-block">
-              <Link href="/Documentation" className={navLink}>
+              <Link href="/documentation" className={navLink}>
                 Documentation
               </Link>
             </li>
             <li className="me-2 fs-5 nav-item d-none d-md-block">
-              <Link href="/Budget" className={navLink}>
+              <Link href="/budget" className={navLink}>
                 How To Budget
               </Link>
             </li>
