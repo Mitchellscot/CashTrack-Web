@@ -2,8 +2,7 @@
 
 .container {
   box-shadow: 0 0 8px 0 $primary;
-  position: relative;
-  flex: 1;
+  flex-shrink: 0;
   padding: 10px var(--gutter);
   flex-direction: row;
 }

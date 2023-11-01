@@ -4,7 +4,7 @@ import HomeHero from './components/HomeHero/HomeHero';
 
 export default function Page() {
   return (
-    <main className="container-fluid container-lg">
+    <main className="container-fluid container-lg d-flex flex-column">
       <HomeHero />
       <Feature
         title="Track your expenses"
