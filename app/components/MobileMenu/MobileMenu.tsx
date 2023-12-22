@@ -33,7 +33,10 @@ export const MobileMenu = () => {
           </li>
           <li className="nav-item mb-3">
             <h3 className="fw-bolder">
-              <Link href="/documentation" className={styles.link}>
+              <Link
+                href="/documentation/getting-started"
+                className={styles.link}
+              >
                 Documentation
               </Link>
             </h3>

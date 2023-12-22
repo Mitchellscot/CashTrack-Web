@@ -1,0 +1,22 @@
+@import '/node_modules/bootswatch/dist/flatly/variables';
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/_variables';
+@import 'node_modules/bootstrap/scss/_mixins/';
+@import 'node_modules/bootstrap/scss/mixins/breakpoints';
+
+.line {
+  height: 5px;
+  border-radius: 6px;
+  transform: skew(-10deg);
+  margin-bottom: 5px;
+  background-image: linear-gradient(to left, $info, $success);
+  width: 100%;
+}
+.lineAlt {
+  height: 5px;
+  border-radius: 6px;
+  transform: skew(-10deg);
+  margin-bottom: 5px;
+  background-image: linear-gradient(to right, $info, $success);
+  width: 100%;
+}

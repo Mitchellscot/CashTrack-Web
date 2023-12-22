@@ -31,7 +31,7 @@ export const Header = () => {
               </Link>
             </li>
             <li className="me-2 fs-5 nav-item d-none d-md-block">
-              <Link href="/documentation" className={navLink}>
+              <Link href="/documentation/getting-started" className={navLink}>
                 Documentation
               </Link>
             </li>

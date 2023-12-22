@@ -37,7 +37,10 @@ export default function HomeHero() {
           >
             View Demo
           </Link>
-          <Link href="/documentation" className="btn btn-info btn-lg me-3">
+          <Link
+            href="/documentation/getting-started"
+            className="btn btn-info btn-lg me-3"
+          >
             Get Started
           </Link>
         </div>

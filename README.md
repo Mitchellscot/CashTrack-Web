@@ -1,4 +1,4 @@
-# CashTrack
+# Cash Track
 
 This is website showcasing my budgeting app.
 

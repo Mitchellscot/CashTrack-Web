@@ -25,10 +25,7 @@ export default function Feature(props: FeatureProps) {
     styles.imageContainer,
     'col-12 col-md-6 d-flex justify-content-center align-items-center'
   );
-  const descriptionText = classNames(
-    styles.description,
-    'lead px-5 text-center'
-  );
+  const descriptionText = classNames(styles.description, 'lead px-5');
   return props.imagePosition.startsWith('r') ? (
     <div className="row d-flex mb-4">
       <div className={textContainer}>
