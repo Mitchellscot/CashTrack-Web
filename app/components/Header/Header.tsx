@@ -26,11 +26,6 @@ export const Header = () => {
 
           <ul className="navbar-nav justify-content-end">
             <li className="me-2 fs-5 nav-item d-none d-md-block">
-              <Link href="/blog" className={navLink}>
-                Blog
-              </Link>
-            </li>
-            <li className="me-2 fs-5 nav-item d-none d-md-block">
               <Link href="/documentation/getting-started" className={navLink}>
                 Documentation
               </Link>

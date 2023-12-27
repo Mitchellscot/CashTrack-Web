@@ -12,3 +12,16 @@
   color: $white;
   text-decoration: none;
 }
+.logo {
+  cursor: pointer;
+  filter: invert(52%) sepia(70%) saturate(470%) hue-rotate(118deg)
+    brightness(99%) contrast(95%);
+}
+.line {
+  height: 5px;
+  border-radius: 6px;
+  transform: skew(-10deg);
+  margin-bottom: 5px;
+  background-image: linear-gradient(to right, $info, $success);
+  width: 50%;
+}

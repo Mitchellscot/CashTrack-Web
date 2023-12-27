@@ -10,10 +10,10 @@ export default function Page() {
   return (
     <div className={container}>
       <div className="row">
-        <div className="col col-md-3 col-lg-2">
+        <div className="col col-md-3 col-lg-2 d-none d-md-block">
           <DocumentationNav activeLink={NavigationLinks.SetUpUser} />
         </div>
-        <div className="col col-md-9 col-lg-10">
+        <div className="col-12 col-md-9 col-lg-10">
           <DocumentationSnippet
             title={'Setting up a user'}
             header={1}
