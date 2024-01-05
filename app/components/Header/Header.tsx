@@ -41,7 +41,10 @@ export const Header = () => {
               </Link>
             </li>
             <li className="d-none d-md-block">
-              <a href="https://demo.cashtrack.net" target="_blank">
+              <a
+                href="https://cashtrack-demo.azurewebsites.net/"
+                target="_blank"
+              >
                 <button className="btn btn-success" type="button">
                   View Demo
                 </button>

@@ -33,7 +33,7 @@ export const MobileMenu = () => {
           <li className="nav-item mb-4">
             <button className="btn btn-success btn-lg" type="button">
               <Link
-                href="https://demo.cashtrack.net"
+                href="https://cashtrack-demo.azurewebsites.net/"
                 className={styles.demoBtn}
               >
                 View Demo

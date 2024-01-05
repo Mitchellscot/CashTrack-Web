@@ -32,7 +32,7 @@ export default function HomeHero() {
         <div className="d-flex">
           <Link
             target="_blank"
-            href="https://demo.cashtrack.net"
+            href="https://cashtrack-demo.azurewebsites.net/"
             className="btn btn-success btn-lg me-3"
           >
             View Demo
