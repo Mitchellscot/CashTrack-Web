@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import styles from './line.module.scss';
+import styles from './Line.module.scss';
 
 interface LineBlueGreenProps {
   direction?: 'blueGreen' | 'greenBlue';
