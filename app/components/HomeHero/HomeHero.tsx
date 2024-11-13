@@ -2,6 +2,7 @@ import classNames from 'classnames';
 import styles from './HomeHero.module.scss';
 import Image from 'next/image';
 import Link from 'next/link';
+import Line from '../Lines/Line';
 
 export default function HomeHero() {
   const logoContainer = classNames('m-2', styles.logoContainer);
@@ -28,20 +29,21 @@ export default function HomeHero() {
         <h2 className="h3 mb-4 text-center">
           A free personal budget application
         </h2>
-        <div className={line}></div>
+        <Line direction="greenBlue" className="mb-4" />
         <div className="d-flex">
-          <Link
-            target="_blank"
-            href="https://cashtrack-demo.azurewebsites.net/"
-            className="btn btn-success btn-lg me-3"
-          >
-            View Demo
-          </Link>
           <Link
             href="/documentation/getting-started"
             className="btn btn-info btn-lg me-3"
           >
             Get Started
+          </Link>
+          <Link
+            target="_blank"
+            href="https://github.com/Mitchellscot/CashTrack/releases/download/prerelease/CashTrack-0.9.0.exe"
+            download
+            className="btn btn-success btn-lg me-3"
+          >
+            Download
           </Link>
         </div>
       </div>

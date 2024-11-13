@@ -26,26 +26,27 @@ export const Header = () => {
 
           <ul className="navbar-nav justify-content-end">
             <li className="me-2 fs-5 nav-item d-none d-md-block">
-              <Link href="/documentation/getting-started" className={navLink}>
-                Documentation
+              <Link href="/documentation/getting-started">
+                <button className="btn btn-info" type="button">
+                  Documentation
+                </button>
               </Link>
             </li>
-            <li className="me-2 fs-5 nav-item d-none d-md-block">
+            {/* <li className="me-2 fs-5 nav-item d-none d-md-block">
               <Link href="/budget" className={navLink}>
                 How To Budget
               </Link>
-            </li>
+            </li> */}
             <li className="me-2 fs-5 nav-item d-none d-md-block">
-              <Link href="/Budget" className={navLink}>
-                Download
+              <Link href="https://github.com/Mitchellscot/CashTrack/releases/download/prerelease/CashTrack-0.9.0.exe" download>
+                <button className="btn btn-success" type="button">
+                  Download
+                </button>
               </Link>
             </li>
             <li className="d-none d-md-block">
-              <a
-                href="https://cashtrack-demo.azurewebsites.net/"
-                target="_blank"
-              >
-                <button className="btn btn-success" type="button">
+              <a href="https://demo.cashtrack.net" target="_blank">
+                <button className="btn btn-warning" type="button">
                   View Demo
                 </button>
               </a>

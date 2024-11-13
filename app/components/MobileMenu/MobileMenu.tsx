@@ -33,7 +33,7 @@ export const MobileMenu = () => {
           <li className="nav-item mb-4">
             <button className="btn btn-success btn-lg" type="button">
               <Link
-                href="https://cashtrack-demo.azurewebsites.net/"
+                href="https://demo.cashtrack.net"
                 className={styles.demoBtn}
               >
                 View Demo
@@ -67,16 +67,16 @@ export const MobileMenu = () => {
               );
             })}
           </ul>
-          <li className="nav-item mb-3">
+          {/* <li className="nav-item mb-3">
             <h3 className="fw-bolder">
               <Link href="/budget" className={styles.link}>
                 How To Budget
               </Link>
             </h3>
-          </li>
+          </li> */}
           <li className="nav-item mb-3">
             <h3 className="fw-bolder">
-              <Link href="/download" className={styles.link}>
+              <Link href="https://github.com/Mitchellscot/CashTrack/releases/download/prerelease/CashTrack-0.9.0.exe" download className={styles.link}>
                 Download
               </Link>
             </h3>

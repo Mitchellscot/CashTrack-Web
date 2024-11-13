@@ -24,19 +24,19 @@ export default function Page() {
           <DocumentationSnippet
             title={'What is Cash Track?'}
             header={2}
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            description="Cash Track is a windows application that allows you to track your expenses, make a plan for your savings, and build a budget specific to your needs. Cash Track is a privacy focused application. None of the data you enter into the program is sent anywhere. It stays on your machine! For this reason, it is advisable to back up your data regularly and store it in a safe place."
             image={undefined}
             lineStyle="alt"
           />
           <DocumentationSnippet
             title={'Why use budgeting software?'}
             header={2}
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            description="Budgeting software can help you track your expenses, make a plan for your savings, and build a budget specific to your needs. If you don't make a plan, you may find yourself spending more money than you make. Budgeting software can help you avoid this by giving you a clear picture of your finances."
             image={undefined}
             lineStyle="default"
             showAlert={true}
             alertTitle="Heads Up!"
-            alertDescription="Cash Track is a privacy focused application. None of the data you enter into the program is sent anywhere. It stays on your machine! For this reason, it is advisable to back up your data regularly and store it in a safe place."
+            alertDescription="Cash Track is a windows application. It will not work on a Mac or Linux machine (Yet!)"
           />
         </div>
       </div>

@@ -3,5 +3,9 @@ import classNames from 'classnames';
 
 export default function Page() {
   const container = classNames(styles.container, 'flex-grow-1 container-fluid');
-  return <div className={container}></div>;
+  return (
+    <div className={container}>
+      This section is currently under construction
+    </div>
+  );
 }

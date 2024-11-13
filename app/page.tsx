@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Feature from './components/Feature/Feature';
 import HomeHero from './components/HomeHero/HomeHero';
+import Line from './components/Lines/Line';
 
 export default function Page() {
   return (
@@ -58,18 +59,25 @@ export default function Page() {
         linkText="Learn More"
       />
       <div className="my-5">
-        <h2 className="text-center my-5">
+        <h2 className="text-center my-3">
           Download today and get your Cash back on Track
         </h2>
-        <div className="d-flex justify-content-center mb-5">
+        <div className="d-flex justify-content-center">
+          <Line direction="blueGreen" className="mb-4" />
+        </div>
+        <div className="d-flex justify-content-center mb-2">
           <Link
-            href="/documentation/getting-started"
+            href="https://github.com/Mitchellscot/CashTrack/releases/download/prerelease/CashTrack-0.9.0.exe"
+            download
             className="btn btn-success btn-lg me-3"
           >
-            Get Started
+            Download
           </Link>
-          <Link href="/budget" className="btn btn-outline-info btn-lg ms-3">
-            Learn How To Budget
+          <Link
+            href="/documentation/getting-started"
+            className="btn btn-info btn-lg ms-3"
+          >
+            Get Started
           </Link>
         </div>
       </div>
