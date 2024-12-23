@@ -10,26 +10,27 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@types/node": "18.16.3",
-    "@types/react": "18.2.27",
-    "@types/react-dom": "18.2.12",
-    "@vercel/analytics": "^1.4.0",
-    "bootstrap": "^5.3.2",
-    "bootswatch": "^5.3.2",
-    "classnames": "^2.3.2",
-    "next": "^13.5.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "vercel": "^32.3.1"
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@vercel/analytics": "^1.4.1",
+    "bootstrap": "^5.3.3",
+    "bootswatch": "^5.3.3",
+    "classnames": "^2.5.1",
+    "next": "^15.1.2",
+    "npm-check": "^6.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "vercel": "^39.2.2"
   },
   "devDependencies": {
-    "eslint": "^8.50.0",
-    "eslint-config-next": "^13.5.3",
-    "husky": "^8.0.0",
-    "lint-staged": "^14.0.1",
-    "prettier": "^3.0.3",
-    "sass": "^1.68.0",
-    "typescript": "^5.2.2"
+    "eslint": "^9.17.0",
+    "eslint-config-next": "^15.1.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.11",
+    "prettier": "^3.4.2",
+    "sass": "^1.83.0",
+    "typescript": "^5.7.2"
   },
   "lint-staged": {
     "*": "prettier --write",
