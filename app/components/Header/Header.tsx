@@ -13,7 +13,10 @@ export const Header = () => {
     <header className={header}>
       <nav className="navbar navbar-expand-md bg-primary" data-bs-theme="dark">
         <div className="container-fluid d-flex justify-content-apart py-0">
-          <a className="navbar-brand text-uppercase fs-2 mx-0 d-flex" href="/">
+          <Link
+            className="navbar-brand text-uppercase fs-2 mx-0 d-flex"
+            href="/"
+          >
             <Image
               src="/chart.svg"
               height={50}
@@ -22,7 +25,7 @@ export const Header = () => {
               alt="cashtrack logo"
             />
             <span className="d-none d-lg-block">cash track</span>
-          </a>
+          </Link>
 
           <ul className="navbar-nav justify-content-end">
             <li className="me-2 fs-5 nav-item d-none d-md-block">
@@ -38,18 +41,21 @@ export const Header = () => {
               </Link>
             </li> */}
             <li className="me-2 fs-5 nav-item d-none d-md-block">
-              <Link href="https://github.com/Mitchellscot/CashTrack/releases/download/prerelease/CashTrack-0.9.0.exe" download>
+              <Link
+                href="https://github.com/Mitchellscot/CashTrack/releases/download/prerelease/CashTrack-0.9.0.exe"
+                download
+              >
                 <button className="btn btn-success" type="button">
                   Download
                 </button>
               </Link>
             </li>
             <li className="d-none d-md-block">
-              <a href="https://demo.cashtrack.net" target="_blank">
+              <Link href="https://demo.cashtrack.net" target="_blank">
                 <button className="btn btn-warning" type="button">
                   View Demo
                 </button>
-              </a>
+              </Link>
             </li>
             <li className="text-nowrap list-unstyled d-block d-md-none">
               <button

@@ -22,12 +22,12 @@ export const MobileMenu = () => {
       <nav className="offcanvas-body">
         <ul className="navbar-nav">
           <li className="nav-item mb-2">
-            <a
+            <Link
               className="navbar-brand text-uppercase fs-2 mx-0 d-flex"
               href="/"
             >
               <span className="text-primary fw-bold">cash track</span>
-            </a>
+            </Link>
           </li>
           <div className={line}></div>
           <li className="nav-item mb-4">
@@ -42,13 +42,13 @@ export const MobileMenu = () => {
           </li>
           <li className="nav-item mb-3">
             <h3 className="fw-bolder">
-              <a
+              <Link
                 href="#documentationLinks"
                 data-bs-toggle="collapse"
                 className={styles.link}
               >
                 Documentation
-              </a>
+              </Link>
             </h3>
           </li>
           <ul className="collapse list-unstyled mb-3" id="documentationLinks">
@@ -76,7 +76,11 @@ export const MobileMenu = () => {
           </li> */}
           <li className="nav-item mb-3">
             <h3 className="fw-bolder">
-              <Link href="https://github.com/Mitchellscot/CashTrack/releases/download/prerelease/CashTrack-0.9.0.exe" download className={styles.link}>
+              <Link
+                href="https://github.com/Mitchellscot/CashTrack/releases/download/prerelease/CashTrack-0.9.0.exe"
+                download
+                className={styles.link}
+              >
                 Download
               </Link>
             </h3>
